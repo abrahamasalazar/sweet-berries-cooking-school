@@ -1,4 +1,23 @@
+:root {
+  --primary-color: #ff4c4c;
+  --secondary-color: #a94e97;
+  --primary-text: #000000;
+  --secondary-text-color: #83869a;
+  --primary-link-color: #ff4c4c;
+}
 html, body {
   height: 100%;
   width: 100%;
+}
+nav {
+  display: flex;
+}
+nav a:first-child {
+  
+}
+nav a {
+  align-content: flex-end;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: var(--primary-link-color);
 }
