@@ -85,6 +85,7 @@ nav a:nth-child(3):hover {
 }
 .body-grid-box h3, p {
   font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
 }
 .body-grid-box a {
   color: var(--primary-color);
