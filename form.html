@@ -2,10 +2,16 @@
 <html>
 
     <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width">
-      <title>The Ultimate Ski Adventure | Form</title>
-      <link href="style.css" rel="stylesheet" type="text/css" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Sweet Berries Cooking School | Registration Form</title>
+        <!--Stylesheet-->
+        <link rel="stylesheet" href="/styles/form.css">
+        <!--Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <!---------------->
     </head>
 
 <body>
@@ -15,11 +21,12 @@
         <a href="">About Us</a>
         <a href="form.html">Get Started</a>
       </nav>
+      <!-- <img class="main-img" src="/assets/banner2.jpg"> -->
   <h1>Sweet Berries Cooking School Registration Form</h1>
   <p>Your one click away from excelling in your culinary endeavors!</p>
-
+  <section class="body-form">
   <label for="first-name"><b>First Name</b></label>
-  <input type="text" placeholder="First Name" name="first-name" required>
+  <input type="text" placeholder="First Name" name="first-name" required><br>
 
   <label for="last-name"><b>Last Name</b></label>
   <input type="text" placeholder="Last Name" name="last-name" required><br>
@@ -44,8 +51,11 @@
   <label for="notes"><b>Notes</b></label>
   <input type="text" placeholder="(optional)" name="notes"><br><br>
 
-  <button type="submit" class="btn" onClick="submitForm()">Submit</button>
+  <button type="submit" class="btn" onClick="submitForm()">Create an account</button>
   <button type="button" class="btn-reset" onClick="this.form.reset()">Reset</button>
+  </section>
+
+  
 
   <footer>&copy2022 Sweet Berries Cooking School; All Rights Reserved</footer>
 </body>
