@@ -14,7 +14,6 @@
     align-items: center;
     justify-content: flex-end;
   }
-  
   nav a {
     align-content: flex-end;
     font-family: 'Roboto', sans-serif;
@@ -44,11 +43,25 @@
     background-color:lightgray;
     border-radius: 20px;
   }
-
-
-
-
-
+  .body-form input {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 0;
+  }
+  .body-form button {
+    margin: 0 400px 0 400px;
+    padding: 5px;
+  }
+  .body-form select {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 0;
+  }
+  .body-form .btn {
+    background-color: var(--secondary-text-color);
+  }
   footer {
     color: #ffff;
     font-family: 'Roboto', sans-serif;
