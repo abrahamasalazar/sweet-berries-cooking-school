@@ -26,13 +26,13 @@ nav a {
 nav a:hover {
   color: var(--secondary-text-color)
 }
-nav a:nth-child(3) {
+nav a:nth-child(4) {
   color: #ffff;
   background-image: linear-gradient(#ff4c4c, #a94e97);
   padding: 10px 20px 10px 20px;
   border-radius: 20px;
 }
-nav a:nth-child(3):hover {
+nav a:nth-child(4):hover {
   background-image: linear-gradient(#a94e97, #ff4c4c);
   transition: 5s;
 }
